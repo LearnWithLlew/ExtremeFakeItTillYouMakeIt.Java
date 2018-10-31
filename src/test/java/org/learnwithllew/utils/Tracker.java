@@ -21,7 +21,7 @@ public class Tracker
   }
   public static void SoundFailure()
   {
-    SoundPlayer.playSoundWithoutExceptions("utils/Crickets-000.wav");
+    SoundPlayer.playSoundWithoutExceptions("utils/fail.wav");
   }
   public static void ResetAndLaunch()
   {
@@ -31,6 +31,6 @@ public class Tracker
   }
   public static void SoundSuccess()
   {
-    SoundPlayer.playSoundWithoutExceptions("Sutils/wordIn-001.wav");
+    SoundPlayer.playSoundWithoutExceptions("utils/pass.wav");
   }
 }

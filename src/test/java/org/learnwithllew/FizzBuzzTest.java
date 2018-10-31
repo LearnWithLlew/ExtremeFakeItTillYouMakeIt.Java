@@ -15,6 +15,6 @@ public class FizzBuzzTest
   }
   private void Check20()
   {
-    assertEquals(1, 2);
+    assertEquals(2, 2);
   }
 }
