@@ -1,0 +1,8 @@
+*.class
+.settings
+.preferences
+.classpath
+.project
+target
+
+*.received.*
