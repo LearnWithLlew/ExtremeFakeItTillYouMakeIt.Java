@@ -6,3 +6,5 @@
 target
 
 *.received.*
+*.counter.fail.txt
+*.counter.pass.txt
