@@ -10,3 +10,5 @@ target
 *.counter.pass.txt
 .idea/
 **/*.iml
+.DS_Store
+
