@@ -2,7 +2,6 @@ package org.learnwithllew;
 
 public class FizzBuzz {
     public static String print(int i) {
-        int one = 1;
         String coma = ",";
         String firstPart = "";
         for (int j = 1; j <= 2; j++) {
