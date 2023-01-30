@@ -20,6 +20,6 @@ public class FizzBuzz {
             firstPart += coma;
         }
         return firstPart.substring(0, firstPart.length() - 1);
-       
+
     }
 }
