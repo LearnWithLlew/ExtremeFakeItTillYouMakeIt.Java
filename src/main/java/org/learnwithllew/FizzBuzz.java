@@ -4,7 +4,7 @@ public class FizzBuzz {
     public static String print(int i) {
         String coma = ",";
         String firstPart = "";
-        for (int j = 1; j <= 20; j++) {
+        for (int j = 1; j <= i; j++) {
             if (j % 15 == 0) {
                 firstPart += "FizzBuzz";
 
