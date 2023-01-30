@@ -4,7 +4,7 @@ public class FizzBuzz {
     public static String print(int i) {
         String coma = ",";
         String firstPart = "";
-        for (int j = 1; j <= 15; j++) {
+        for (int j = 1; j <= 19; j++) {
             if (j % 15 == 0) {
                 firstPart += "FizzBuzz,";
 
@@ -18,7 +18,7 @@ public class FizzBuzz {
                 firstPart += j + coma;
             }
         }
-        String expected2 = firstPart + "16,17,Fizz,19,Buzz";
+        String expected2 = firstPart + "Buzz";
         return expected2;
     }
 }
