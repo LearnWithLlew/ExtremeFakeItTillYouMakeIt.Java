@@ -8,7 +8,7 @@ public class FizzBuzz {
             if (j %3 == 0) {
                 firstPart += "Fizz,";
 
-            } else if (j == 5 || j == 10) {
+            } else if (j % 5 == 0 ) {
                 firstPart += "Buzz,";
 
             } else {
