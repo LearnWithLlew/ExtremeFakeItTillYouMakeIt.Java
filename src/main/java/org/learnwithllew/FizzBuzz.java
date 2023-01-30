@@ -6,17 +6,18 @@ public class FizzBuzz {
         String firstPart = "";
         for (int j = 1; j <= 19; j++) {
             if (j % 15 == 0) {
-                firstPart += "FizzBuzz,";
+                firstPart += "FizzBuzz";
 
             } else if (j % 3 == 0) {
-                firstPart += "Fizz,";
+                firstPart += "Fizz";
 
             } else if (j % 5 == 0) {
-                firstPart += "Buzz,";
+                firstPart += "Buzz";
 
             } else {
-                firstPart += j + coma;
+                firstPart += j;
             }
+            firstPart += coma;
         }
         String expected2 = firstPart + "Buzz";
         return expected2;
