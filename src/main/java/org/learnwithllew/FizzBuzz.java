@@ -19,8 +19,7 @@ public class FizzBuzz {
             }
             firstPart += coma;
         }
-        firstPart = firstPart.substring(0, firstPart.length() - 1);
-        String expected2 = firstPart ;
-        return expected2;
+        return firstPart.substring(0, firstPart.length() - 1);
+       
     }
 }
