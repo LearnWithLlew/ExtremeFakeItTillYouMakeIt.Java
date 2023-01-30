@@ -15,7 +15,8 @@ public class FizzBuzz {
                 firstPart += j + coma;
             }
         }
-        String expected2 = firstPart + "FizzBuzz," + "16,17,Fizz,19,Buzz";
+        firstPart += "FizzBuzz,";
+        String expected2 = firstPart +  "16,17,Fizz,19,Buzz";
         return expected2;
     }
 }
