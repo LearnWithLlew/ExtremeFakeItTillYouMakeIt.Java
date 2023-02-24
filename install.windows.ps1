@@ -11,7 +11,7 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/java-in
 
 
 # Clone repo
-& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/approvals/ApprovalTests.java.StarterProject.git C:\Code\ApprovalTests.java.StarterProject
+& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/LearnWithLlew/ExtremeFakeItTillYouMakeIt.Java.git C:\Code\ExtremeFakeItTillYouMakeIt
 
 # Done
 cls
