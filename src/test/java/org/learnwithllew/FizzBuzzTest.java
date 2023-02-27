@@ -12,7 +12,7 @@ public class FizzBuzzTest
   @Test
   public void test()
   {
-    Tracker.ResetAndLaunch();// Comment out after 1st run
+    //Tracker.ResetAndLaunch();// Comment out after 1st run
     Tracker.TrackTestRuns(this::Check20);
   }
   private void Check20()
