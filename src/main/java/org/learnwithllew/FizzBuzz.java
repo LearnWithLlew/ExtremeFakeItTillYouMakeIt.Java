@@ -6,7 +6,8 @@ public class FizzBuzz {
         String number = "" + 1;
         String separator = ",";
         String anotherNumber = "2";
-        String result = number + separator + anotherNumber + separator + "Fizz" + separator;
+        String fizz = "Fizz";
+        String result = number + separator + anotherNumber + separator + fizz + separator;
         String expected = result + "4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
