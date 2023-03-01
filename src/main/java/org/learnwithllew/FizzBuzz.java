@@ -8,8 +8,8 @@ public class FizzBuzz {
         String anotherNumber = "2";
         String fizz = "Fizz";
         String result = "";
-        for (int x=0; x < 1; x++) {
-            result += x+1 + separator;
+        for (int x = 1; x < 2; x++) {
+            result += x + separator;
         }
         result += anotherNumber + separator;
         result += fizz + separator;
