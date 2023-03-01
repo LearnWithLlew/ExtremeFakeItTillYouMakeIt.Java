@@ -10,7 +10,7 @@ public class FizzBuzz {
         String result = "";
         for (int x = 1; x < 3; x++) {
             if (x == 3) {
-                
+                result += "fizz" + separator;
             }
             result += x + separator;
         }
