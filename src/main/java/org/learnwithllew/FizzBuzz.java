@@ -9,7 +9,7 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String result = "";
         for (int x=0; x < 1; x++) {
-            result += number + separator;
+            result += x+1 + separator;
         }
         result += anotherNumber + separator;
         result += fizz + separator;
