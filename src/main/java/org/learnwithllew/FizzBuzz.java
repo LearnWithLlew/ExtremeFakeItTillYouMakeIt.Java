@@ -1,7 +1,7 @@
 package org.learnwithllew;
 
 public class FizzBuzz {
-    public static String print(int i)
+    public static String print(int max)
     {
         String number = "" + 1;
         String separator = ",";
