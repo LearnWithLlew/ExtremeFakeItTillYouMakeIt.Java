@@ -20,8 +20,8 @@ public class FizzBuzz {
                 result += x + separator;
             }
         }
-
-        String expected = result + "FizzBuzz," +
+        result += fizz + buzz + separator;
+        String expected = result +
                 "16,17,Fizz,19,Buzz";
         return expected;
     }
