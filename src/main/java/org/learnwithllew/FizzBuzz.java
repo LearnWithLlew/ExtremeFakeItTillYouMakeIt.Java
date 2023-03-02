@@ -9,8 +9,8 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x < 6; x++) {
-            if (x == 3) {
+        for (int x = 1; x < 7; x++) {
+            if (x == 3 || x == 6) {
                 result += fizz + separator;
             }
             else if(x == 5) {
@@ -21,7 +21,7 @@ public class FizzBuzz {
             }
         }
 
-        String expected = result + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
+        String expected = result + "7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
 }
