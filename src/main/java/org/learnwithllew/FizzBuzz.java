@@ -7,6 +7,7 @@ public class FizzBuzz {
         String separator = ",";
         String anotherNumber = "2";
         String fizz = "Fizz";
+        String buzz = "Buzz";
         String result = "";
         for (int x = 1; x < 5; x++) {
             if (x == 3) {
@@ -17,7 +18,7 @@ public class FizzBuzz {
             }
         }
 
-        String expected = result + "Buzz," + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
+        String expected = result + buzz + "," + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
 }
