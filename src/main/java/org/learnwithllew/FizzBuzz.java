@@ -18,7 +18,7 @@ public class FizzBuzz {
             }
         }
 
-        String expected = result + buzz + "," + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
+        String expected = result + buzz + separator + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
 }
