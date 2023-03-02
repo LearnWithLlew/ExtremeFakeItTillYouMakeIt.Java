@@ -9,16 +9,18 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x < 5; x++) {
+        for (int x = 1; x < 6; x++) {
             if (x == 3) {
                 result += fizz + separator;
+            }
+            else if(x == 5) {
+                result += buzz + separator;
             }
             else {
                 result += x + separator;
             }
         }
 
-        result += buzz + separator;
         String expected = result + "Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
