@@ -9,7 +9,7 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x < 7; x++) {
+        for (int x = 1; x <= 6; x++) {
             if (x == 3 || x == 6) {
                 result += fizz + separator;
             }
