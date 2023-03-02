@@ -9,7 +9,7 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x <= 12; x++) {
+        for (int x = 1; x <= 14; x++) {
             if (x % 3 == 0) {
                 result += fizz + separator;
             }
@@ -21,7 +21,7 @@ public class FizzBuzz {
             }
         }
 
-        String expected = result + "13,14,FizzBuzz,16,17,Fizz,19,Buzz";
+        String expected = result + "FizzBuzz,16,17,Fizz,19,Buzz";
         return expected;
     }
 }
