@@ -21,7 +21,8 @@ public class FizzBuzz {
             }
         }
 
-        String expected = result + "FizzBuzz,16,17,Fizz,19,Buzz";
+        String expected = result + "FizzBuzz," +
+                "16,17,Fizz,19,Buzz";
         return expected;
     }
 }
