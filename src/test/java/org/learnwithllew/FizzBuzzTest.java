@@ -13,6 +13,7 @@ public class FizzBuzzTest {
   public void test() {
     //Tracker.ResetAndLaunch();// Comment out after 1st run
     Tracker.TrackTestRuns(this::Check20);
+    Tracker.TrackTestRuns(this::Check15);
   }
 
   private void Check20() {
@@ -22,6 +23,6 @@ public class FizzBuzzTest {
 
   private void Check15() {
     String expected = "1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz";
-    assertEquals(expected, FizzBuzz.print(20));
+    assertEquals(expected, FizzBuzz.print(15));
   }
 }
