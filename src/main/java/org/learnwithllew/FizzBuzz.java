@@ -11,17 +11,18 @@ public class FizzBuzz {
         String result = "";
         for (int x = 1; x <= 15; x++) {
             if  (x == 15) {
-                result += fizz + buzz + separator;
+                result += fizz + buzz;
             }
             else if (x % 3 == 0) {
-                result += fizz + separator;
+                result += fizz ;
             }
             else if(x % 5 == 0) {
-                result += buzz + separator;
+                result += buzz ;
             }
             else {
-                result += x + separator;
+                result += x;
             }
+            result += separator;
         }
         String expected = result +
                 "16,17,Fizz,19,Buzz";
