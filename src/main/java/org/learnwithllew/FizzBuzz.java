@@ -8,7 +8,7 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x <= 18; x++) {
+        for (int x = 1; x <= 19; x++) {
             if (x % 3 == 0 && x % 5 == 0) {
                 result += fizz + buzz;
             } else if (x % 3 == 0) {
@@ -20,7 +20,7 @@ public class FizzBuzz {
             }
             result += separator;
         }
-        String expected = result + "19,Buzz";
+        String expected = result + "Buzz";
         return expected;
     }
 }
