@@ -20,7 +20,6 @@ public class FizzBuzz {
                 result += separator;
             }
         }
-        String expected = result ;
-        return expected;
+        return result;
     }
 }
