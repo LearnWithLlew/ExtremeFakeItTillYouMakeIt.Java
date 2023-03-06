@@ -16,7 +16,7 @@ public class FizzBuzz {
             else if (x % 3 == 0) {
                 result += fizz + separator;
             }
-            else if(x == 5 || x == 10) {
+            else if(x % 5 == 0) {
                 result += buzz + separator;
             }
             else {

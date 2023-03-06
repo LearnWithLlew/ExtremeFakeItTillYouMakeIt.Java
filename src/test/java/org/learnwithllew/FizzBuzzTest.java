@@ -3,13 +3,13 @@ package org.learnwithllew;
 import com.github.larseckart.tcr.TestCommitRevertExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.learnwithllew.utils.TestCounter;
 import org.learnwithllew.utils.Tracker;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(TestCommitRevertExtension.class)
 public class FizzBuzzTest
 {
+
   @Test
   public void test()
   {
