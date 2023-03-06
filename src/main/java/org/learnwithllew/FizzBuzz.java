@@ -6,7 +6,7 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
-        for (int x = 1; x <= 20; x++) {
+        for (int x = 1; x <= max; x++) {
             if (x % 3 == 0 && x % 5 == 0) {
                 result += fizz + buzz;
             } else if (x % 3 == 0) {
@@ -16,7 +16,7 @@ public class FizzBuzz {
             } else {
                 result += x;
             }
-            if (x != 20) {
+            if (x != max) {
                 result += separator;
             }
         }
