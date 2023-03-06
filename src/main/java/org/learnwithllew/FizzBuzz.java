@@ -1,8 +1,7 @@
 package org.learnwithllew;
 
 public class FizzBuzz {
-    public static String print(int max)
-    {
+    public static String print(int max) {
         String number = "" + 1;
         String separator = ",";
         String anotherNumber = "2";
@@ -10,17 +9,16 @@ public class FizzBuzz {
         String buzz = "Buzz";
         String result = "";
         for (int x = 1; x <= 15; x++) {
-            if  (x == 15) {
+            if (x == 15) {
                 result += fizz + buzz;
-            }
-            else if (x % 3 == 0) {
-                result += fizz ;
-            }
-            else if(x % 5 == 0) {
-                result += buzz ;
-            }
-            else {
-                result += x;
+            } else {
+                if (x % 3 == 0) {
+                    result += fizz;
+                } else if (x % 5 == 0) {
+                    result += buzz;
+                } else {
+                    result += x;
+                }
             }
             result += separator;
         }
