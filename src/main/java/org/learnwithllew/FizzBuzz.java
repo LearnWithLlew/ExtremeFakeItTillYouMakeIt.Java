@@ -2,9 +2,7 @@ package org.learnwithllew;
 
 public class FizzBuzz {
     public static String print(int max) {
-        String number = "" + 1;
         String separator = ",";
-        String anotherNumber = "2";
         String fizz = "Fizz";
         String buzz = "Buzz";
         String result = "";
